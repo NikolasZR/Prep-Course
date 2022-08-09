@@ -6,11 +6,11 @@
 
 1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
 
- * Variables
- * Strings
- * Funciones (argumentos, `return`)
- * Declaraciones `if`
- * Valores booleanos (`true`, `false`)
+ * Variables : na variable es una forma de almacenar el valor de algo para usarlo despues, en javacript podemos configurar y restablecer a cualquier tipo ya que es un lñenguaje de tipado dinamico
+ * Strings : son un tipo de dato, cadena de caracteres que empiezan y terminan con "
+ * Funciones (argumentos, `return`) : Es la forma de almacenar codigos que despues podamos imbocar y que se ejecuten... Artgumentos: son como una variable que no tiene valor pero cuando alguien invoque la funcion le va a dar un valor.. Retur:   es la forma de retornar algo
+ * Declaraciones `if` : sirve para ejecutar un codi SI el primer codigo es true de lo contrario no se ejecuta
+ * Valores booleanos (`true`, `false`) son los valores de verdadero o falso por ejemplo 1 === 1 nos daria true porque 1 es igual a 1 
 
 2. Instalar Node y NPM. NPM se incluye con Node. <https://nodejs.org/en/download/>
 
