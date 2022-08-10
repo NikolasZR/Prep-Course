@@ -1,16 +1,30 @@
 // No cambies los nombres de las funciones.
 
+const { numeroRandom } = require("../../02-JS-I/homework/homework");
+
 function obtenerMayor(x, y) {
   // "x" e "y" son números enteros (int).
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
+  if (x < y) {
+    return y
+    }
+else if (x > y){
+      return x 
+    }
+else  return Math.random(x , y );
+
 }
 
 function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
+      if (edad >= 18){
+          return "alowed"
+    }
+      else return "Not Allowed"
 }
   
 function conection(status) {
@@ -19,6 +33,13 @@ function conection(status) {
   //Cuando el estado es igual a 2, el usuario está "Away"
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
+  if (status == 1){
+    return 'Online'
+  }
+  else if (status == 2){
+    return 'Away'
+  }
+  else return 'offline' 
 }
 
 function saludo(idioma) {
@@ -28,6 +49,7 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
+  
 }
 
 function colors(color) {
