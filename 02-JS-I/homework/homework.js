@@ -65,8 +65,8 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if ( x == y ) 
-return true; {
-else return false;
+      return true; {
+   return false;
 }
 }
 
@@ -115,7 +115,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (numero % 2) == 0; {
+  if (numero % 2 === 0); {
     return true
   }
   return false 
@@ -126,7 +126,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (numero % 2) == 1; {
+  if (numero % 2 === 1); {
     return true
   }
   return false 
@@ -218,7 +218,7 @@ function obtenerAreaRectangulo(alto, ancho) {
 }
 
 
-function retornarPerimetro(lado){
+function retornarPerimetro( lado ){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
   let area, lado, perimetro;
