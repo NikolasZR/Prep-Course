@@ -4,7 +4,7 @@
 const  nombre = "Martin";
 
 // Crea una variable numérica, puede ser cualquier número:
-const var numero = 7;
+const numero = 7;
 
 // Crea una variable booleana:
 const nuevoBool = 1<2;
@@ -211,21 +211,32 @@ function obtenerSaludo(nombre) {
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  
+  var lado = parseInt(prompt("ingrese medida del lado del cuadrado"));
+  let area;
+  area = lado * lado;
+  document.write("El area del cuadrado es: " + area);
 }
 
 
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  
+  let area, lado, perimetro;
+    lado = parseFloat (document.formulario1.lado.value);
+    area=lado*lado;
+    perimetro=lado*4;
+    document.formulario1.area.value = area;
+    document.formulario1.perimetro.value = perimetro;
 }
 
 
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-
+  var base=parseInt(prompt("Dime la base del triangulo"));
+  var altura=parseInt(prompt("Dime la altura del triangulo"));
+   
+  alert("El area del triangulo es: " + ((base * altura)/2))
 }
 
 
@@ -233,7 +244,8 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  
+  let resultado = euro * 1.2;
+  console.log(resultado);
 }
 
 
@@ -243,7 +255,11 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  
+  if(["a", "e", "i", "o", "u"].includes(char.toLowerCase())){
+    console.log("Es Vocal!")  
+  }else {
+    console.log("Dato Incorrecto!")
+  }
 }
 
 
