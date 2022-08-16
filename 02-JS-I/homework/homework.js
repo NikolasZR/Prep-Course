@@ -218,15 +218,10 @@ function obtenerAreaRectangulo(alto, ancho) {
 }
 
 
-function retornarPerimetro( lado ){
+function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  let area, lado, perimetro;
-    lado = parseFloat (document.formulario1.lado.value);
-    area=lado*lado;
-    perimetro=lado*4;
-    document.formulario1.area.value = area;
-    document.formulario1.perimetro.value = perimetro;
+  return lado * 4
 }
 
 
