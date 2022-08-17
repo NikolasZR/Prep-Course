@@ -66,5 +66,5 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 #ejercicioSiete{
     display: flex;
     /* flex-flow:row-reverse; */
-    align-self: flex-end;
+    flex: ;
 }
