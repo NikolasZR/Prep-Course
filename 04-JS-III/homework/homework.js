@@ -103,13 +103,13 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
-  var maximo = numeros[0];
+  var mayor = numeros[0];
   for(var i = 1; i < numeros.length; i++) {
-    if(numeros[i] > maximo) { 
-      maximo = numeros[i];
+    if(numeros[i] > mayor) { 
+      mayor = numeros[i];
     }
   }
-  return maximo;
+  return mayor;
 }
 
 
@@ -254,7 +254,7 @@ function continueStatement(numero) {
   // Tu código:
   var array = [];
   var suma = numero;
-  for(var i= 0; i<10; i++) {
+  for(var i= 0; i < 10; i++) {
     if(i === 5) continue;
     else {
       suma = suma + 2;
